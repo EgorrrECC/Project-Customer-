@@ -1,0 +1,170 @@
+@font-face {
+  font-family: "rubik";
+  src: local("rubik"), url(./fonts/Rubik.ttf);
+}
+
+body {
+  flex-direction: column;
+  padding: 0px;
+  position: relative;
+  height: 1000px;
+  background: #ffffff;
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Rubik;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  color: #443e3e;
+  font-size: 48px;
+  margin-bottom: 50px;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 1200px;
+}
+
+header {
+  padding-top: 100px;
+}
+
+.elements-1 {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  gap: 40px;
+  justify-content: space-between;
+  max-width: 1200px;
+}
+
+.elements-all {
+  display: grid;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 30px;
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.elements-2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.elements-3 {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr;
+  gap: 30px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  width: 1200px;
+  height: 240px;
+}
+
+.points-1 {
+  height: 27px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: #443e3e;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.points-2 {
+  height: 27px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: #443e3e;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.points-3 {
+  height: 27px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: #443e3e;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.points-4 {
+  height: 27px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: #443e3e;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.points-5 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: #443e3e;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+#points-text {
+  width: 208px;
+  height: 42px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #646469;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin-top: 10px;
+}
+
+img {
+  display: block;
+}
+
+.text-in-picture {
+  color: #fff;
+  position: absolute;
+  transform: translate(0, -100%);
+  padding: 15px;
+  font-weight: 600;
+  line-height: 1.4;
+}
